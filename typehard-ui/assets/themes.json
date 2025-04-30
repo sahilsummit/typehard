@@ -1,0 +1,23 @@
+{
+  "light": {
+    "name": "Light",
+    "uiTheme": "default",
+    "background": "#f8fafc",
+    "text": "#222",
+    "font": "Inter, sans-serif"
+  },
+  "dark": {
+    "name": "Dark",
+    "uiTheme": "dark",
+    "background": "#18181b",
+    "text": "#fafafa",
+    "font": "Fira Mono, monospace"
+  },
+  "hacker": {
+    "name": "Hacker",
+    "uiTheme": "hacker",
+    "background": "#0f0f0f",
+    "text": "#39ff14",
+    "font": "Fira Mono, monospace"
+  }
+}
