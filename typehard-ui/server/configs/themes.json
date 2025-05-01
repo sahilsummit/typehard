@@ -1,23 +1,47 @@
 {
   "light": {
-    "name": "Light",
-    "uiTheme": "default",
+    "name": "light",
     "background": "#f8fafc",
-    "text": "#222",
-    "font": "Inter, sans-serif"
+    "text": "#222222",
+    "font": "Inter, sans-serif",
+    "primary": "#2563eb",
+    "secondary": "#fbbf24",
+    "tertiary": "#10b981"
   },
   "dark": {
-    "name": "Dark",
-    "uiTheme": "dark",
+    "name": "dark",
     "background": "#18181b",
     "text": "#fafafa",
-    "font": "Fira Mono, monospace"
+    "font": "Fira Mono, monospace",
+    "primary": "#6366f1",
+    "secondary": "#f59e42",
+    "tertiary": "#a3e635"
   },
-  "hacker": {
-    "name": "Hacker",
-    "uiTheme": "hacker",
-    "background": "#0f0f0f",
+  "terminal": {
+    "name": "terminal",
+    "background": "#181c1f",
     "text": "#39ff14",
-    "font": "Fira Mono, monospace"
+    "font": "Fira Mono, monospace",
+    "primary": "#39ff14",
+    "secondary": "#00bcd4",
+    "tertiary": "#ffeb3b"
+  },
+  "cartoon": {
+    "name": "cartoon",
+    "background": "#ffe066",
+    "text": "#ff5e57",
+    "font": "Comic Neue, Comic Sans MS, cursive, sans-serif",
+    "primary": "#ff5e57",
+    "secondary": "#3ec300",
+    "tertiary": "#009ffd"
+  },
+  "neon": {
+    "name": "neon",
+    "background": "#1a0033",
+    "text": "#f500ff",
+    "font": "Orbitron, 'Arial Black', sans-serif",
+    "primary": "#f500ff",
+    "secondary": "#00fff7",
+    "tertiary": "#ffea00"
   }
 }

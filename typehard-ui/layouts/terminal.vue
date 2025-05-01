@@ -6,9 +6,8 @@
 
 <script setup lang="ts">
 const { applyTheme } = useUtils();
-applyTheme('dark');
-
 const currentTheme = useCurrentTheme();
+applyTheme('terminal');
 const styles = computed(() => ({
   backgroundColor: currentTheme.value?.background,
   fontFamily: currentTheme.value?.font,
