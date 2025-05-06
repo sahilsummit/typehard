@@ -1,14 +1,23 @@
 <template>
   <div>
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
+    <UApp>
+      <ContextMenu>
+        <template #default>
+          <NuxtLayout>
+            <NuxtPage />
+          </NuxtLayout>
+        </template>
+      </ContextMenu>
+    </UApp>
   </div>
 </template>
 
 <script setup lang="ts">
 const { fetchThemes } = useUtils();
-fetchThemes();
+
+onBeforeMount(async () => {
+  await fetchThemes();
+});
 </script>
 
 <style>

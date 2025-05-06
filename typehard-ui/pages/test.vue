@@ -9,10 +9,6 @@
 </template>
 
 <script setup lang="ts">
-definePageMeta({
-  layout: 'terminal',
-});
-
 const primaryColor = usePrimaryColor();
 const secondaryColor = useSecondaryColor();
 const tertiaryColor = useTertiaryColor();
