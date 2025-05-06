@@ -22,12 +22,15 @@ export const useUtils = () => {
   };
 
   const transformTheme = (themeObject: Theme[]) => {
+    const currentTheme = useCurrentTheme() as unknown as Ref<Theme | null>;
     return Object.entries(themeObject ?? {}).map(([key, value]) => {
       const { name, label, icon } = value;
       const contextMenuItem = {
         label: label,
         icon: icon,
         onSelect: () => applyTheme(name as ThemeName),
+        type: 'checkbox' as const,
+        checked: name === currentTheme.value?.name,
       };
       return contextMenuItem;
     });
